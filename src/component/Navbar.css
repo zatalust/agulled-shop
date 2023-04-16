@@ -19,24 +19,26 @@
 }
 
 .navbar-logo {
-  color: #fff;
   justify-self: start;
   margin-left: 20px;
   cursor: pointer;
   text-decoration: none;
-  font-size: 2rem;
+  font-size: 4rem;
   display: flex;
   align-items: center;
 }
 
-.fa-typo3 {
+.logoico {
   margin-left: 0.5rem;
-  font-size: 1.8rem;
+  height: 3rem;
+  width: 3rem;
+  fill: none;
+  
 }
 
 .nav-menu {
   display: grid;
-  grid-template-columns: repeat(4, auto);
+  grid-template-columns: repeat(6, auto);
   grid-gap: 10px;
   list-style: none;
   text-align: center;
@@ -48,7 +50,7 @@
 .nav-item {
   height: 80px;
   width: 80%;
-  margin-bottom: 10px;
+  margin-bottom: 0px;
 }
 
 .nav-links {
@@ -58,6 +60,7 @@
   text-decoration: none;
   padding: 0.5rem 1rem;
   height: 100%;
+  white-space: nowrap;
 }
 
 .nav-links:hover {
@@ -143,14 +146,14 @@
   .nav-links-mobile {
     display: block;
     text-align: center;
-    margin: 2rem auto;
+    margin: 0.5rem auto;
     border-radius: 4px;
     width: 80%;
     text-decoration: none;
     font-size: 1.5rem;
     background-color: transparent;
     color: #fff;
-    padding: 14px 20px;
+    padding: 7px 20px;
     border: 1px solid #fff;
     transition: all 0.3s ease-out;
   }

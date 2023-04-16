@@ -1,4 +1,4 @@
-.cards {
+.cards, .childcards, .foodcards, .haircards, .makeupcards, .skincards, .sunscreamcards {
   padding: 4rem;
   background: #fff;
 }

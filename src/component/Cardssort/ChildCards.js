@@ -1,12 +1,11 @@
 import React from 'react';
-import './Cards.css';
-import CardItem from './CardItem';
+import '../Cards.css';
+import CardItem from '../CardItem';
 
-
-function Cards() {
+function ChildCards() {
   return (
-    <div className='cards'>
-      <h1>Check your lovely catalogue</h1>
+    <div className='childcards'>
+      <h1>Child care department</h1>
       <div className='cards__container'>
         <div className='cards__wrapper'>
           <ul className='cards__items'>
@@ -14,13 +13,13 @@ function Cards() {
               src='images/img-9.jpg'
               text='Explore the hidden waterfall deep inside the Amazon Jungle'
               label='Child care'
-              path = '/childcards'
+              path='/products'
             />
             <CardItem
               src='images/img-2.jpg'
               text='Travel through the Islands of Bali in a Private Cruise'
               label='Makeup'
-              path='/makeupcards'
+              path='/products'
             />
           </ul>
           <ul className='cards__items'>
@@ -28,13 +27,13 @@ function Cards() {
               src='images/img-3.jpg'
               text='Set Sail in the Atlantic Ocean visiting Uncharted Waters'
               label='Skin care'
-              path='/skincards'
+              path='/products'
             />
             <CardItem
               src='images/img-4.jpg'
               text='Experience Football on Top of the Himilayan Mountains'
               label='Hair care'
-              path='/haircards'
+              path='/products'
             />
           </ul>
           <ul className='cards__items'>
@@ -42,13 +41,13 @@ function Cards() {
               src='images/img-8.jpg'
               text='Ride through the Sahara Desert on a guided camel tour'
               label='Food Supplements'
-              path='/foodcards'
+              path='/products'
             />
             <CardItem
               src='images/img-8.jpg'
               text='Ride through the Sahara Desert on a guided camel tour'
               label='Sunscreen cream'
-              path='/sunscreamcards'
+              path='/products'
             />
           </ul>
         </div>
@@ -57,4 +56,4 @@ function Cards() {
   );
 }
 
-export default Cards;
+export default ChildCards;

@@ -8,7 +8,9 @@
 .home,
 .services,
 .products,
-.sign-up {
+.sign-up,
+.about,
+.contact {
   display: flex;
   height: 90vh;
   align-items: center;
@@ -40,5 +42,39 @@
   background-size: cover;
   background-repeat: no-repeat;
   color: #fff;
+  font-size: 70px;
+}
+.about {
+  background-image: url('../public/images/img-8.jpg');
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  color: #fff;
+  font-size: 70px;
+}
+.contact {
+  /*background-image: url('../public/images/img-8.jpg');*/
+  background-position: center;
+  display: flex;
+  background-size: cover;
+  background-repeat: no-repeat;
+  color: #000;
   font-size: 100px;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+
+}
+
+.counter{
+  display: grid;
+  grid-template-columns: 70px 70px 70px;
+  column-gap: 10px;
+}
+button{
+  font-size: 20px;
+  font-weight: 700;
+  border-radius: 5px;
+  border:none;
+  background-color: greenyellow;
 }
